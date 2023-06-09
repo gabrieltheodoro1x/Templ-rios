@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+.dropdown{
+    list-style-type: none;
+}
+
+.principais, .filosofia, .arte, .sistema-feudal, .autores{
+    list-style-type: none;
+}
+
+.a-dropdown, .dropdown-item{
+    text-decoration: none;
+    color: black;
+}
+
+.menu{
+    position: absolute;
+    top: 30px;
+    left: 130px;
+}
+
+.menu li a:hover{
+    background:#701f1f;
+    color:#fff;
+    -moz-box-shadow:0 3px 10px 0 #d32626;
+    -webkit-box-shadow:0 3px 10px 0 #b91f1f;
+    text-shadow:0px 0px 5px #ae1f1f;
+}
+
+.menu li a{
+    color:#333; 
+    text-decoration:none; 
+    padding:5px 40px; 
+    display:block;
+}
+
+.menu li ul{
+    position:absolute;
+    top:50px;
+    left:0;
+    background-color:#ffffff;
+    display:none;
+}
+
+.menu li:hover ul, .menu li.over ul{
+    display:block;
+}
+
+.menu li ul li{
+    border:1px solid #c0c0c0;
+    display:block;
+    width:225px;
+}
+
+.menu li{
+    position:relative;
+    float:left;
+    
+}
+
+img{
+    width: 10%;
+    float:left
+}
+
+.navbar{
+    position: fixed;
+    border-bottom: 1px solid #c0c0c0; ;
+    padding: 20px;
+    box-shadow: 0 0.5px 2px 0 #b91f1f;
+}
+
+.div-1{
+    position: absolute;
+    top: 150px;
+    display: grid;
+    margin: 30px;
+    grid-template-areas:
+    "header header header"
+    "main main main"
+    "footer footer footer";
+    width: 100%;
+    justify-content: space-around;
+}
+
+header{
+    grid-area: header;
+}
+
+footer{
+    grid-area: footer;
+}
+
+main{
+    grid-area: main;
+}
+
+.titulo{
+    font-weight: normal;
+    font-size: 90px;
+    font-family: 'Quicksand', sans-serif;
+    color: red;
+}
+
+.titulo2{
+    font-weight: normal;
+    font-family: 'Quicksand', sans-serif;
+    color: red;
+    padding-bottom: 60px;
+    font-size: 25px;
+}
+
+.container-button{
+    position: absolute;
+    color: white;
+    background-color: #b91f1f;
+    border: 0.5px solid black ;
+    width: 200px;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 23px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+}
+
+.a-dropdown{
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.dropdown-item{
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.cavaleiro{
+    position: absolute;
+    width: 500px;
+    float: right;
+    left: 800px;
+    top: 20px;
+}
+
+body{
+    overflow: hidden;
+}
+
+
+@media screen and (max-width: 500px){
+    .div-1{
+        width: 100px;
+
+        flex-direction: column;
+    }
+}
+
