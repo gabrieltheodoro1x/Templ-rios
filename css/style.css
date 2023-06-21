@@ -113,7 +113,7 @@ main{
         letter-spacing: 3px;
         font-family: 'Times New Roman', Times, serif;
         padding-top: 90px;
-        font-size: 13vh;
+        font-size: 60px;
         color: #e5383b;
         
     }
@@ -126,6 +126,8 @@ main{
         font-size: 4vh;
         padding-bottom: 5vh;
         color: #e5383b;
+    }
+    body{
     }
 }
 
@@ -140,9 +142,8 @@ main{
         letter-spacing: 3px;
         font-family: 'Times New Roman', Times, serif;
         padding-top: 90px;
-        font-size: 10vh;
+        font-size: 50px;
         color: #e5383b;
-        
     }
     
     h2{
@@ -154,6 +155,7 @@ main{
         padding-bottom: 5vh;
         color: #e5383b;
     }
+
 }
 
 
@@ -175,19 +177,19 @@ main{
       overflow-x: hidden;
     }
     .nav-list {
-      position: absolute;
-      top: 9vh;
-      right: 0;
-      width: 35vw;
-      height: 92vh;
-      background: white;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-around;
-      transform: translateX(100%);
-      transition: transform 0.3s ease-in;
-      color:#ba181b;
-      
+        position: absolute;
+        top: 9vh;
+        right: 0;
+        width: 35vw;
+        height: 92vh;
+        background: white;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+        color:#ba181b;
+        
     }
     .nav-list li {
       margin-left: 0;
