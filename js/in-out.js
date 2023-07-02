@@ -6,7 +6,16 @@ btn.addEventListener("click", function(e){
     const name = document.querySelector('#text-input');
     const value = name.value;
 
-    if(value == "c"){
+    if(value == "Senhor Feudal"){
+        let a = document.getElementById("text").innerHTML = "Você acertou";
+    }
+    else if(value == "senhor feudal"){
+        let a = document.getElementById("text").innerHTML = "Você acertou";
+    }
+    else if(value == "Senhor feudal"){
+        let a = document.getElementById("text").innerHTML = "Você acertou";
+    }
+    else if(value == "senhor Feudal"){
         let a = document.getElementById("text").innerHTML = "Você acertou";
     }
     else {
