@@ -94,7 +94,7 @@ h1{
     letter-spacing: 3px;
     font-family: 'Times New Roman', Times, serif;
     padding-top: 90px;
-    font-size: 15vh;
+    font-size: 7vh;
     color: #e5383b;
     
 }
@@ -149,7 +149,7 @@ main{
     
 }
   
-@media (min-width: 481px) and (max-width: 800px) {                 
+@media (min-width: 630px) and (max-width: 800px) {                 
     nav {flex-direction: column; display: fixed;}
     .soldado{
         display: none;
@@ -159,7 +159,7 @@ main{
         letter-spacing: 3px;
         font-family: 'Times New Roman', Times, serif;
         padding-top: 90px;
-        font-size: 13vh;
+        font-size: 7vh;
         color: #e5383b;
         
     }
@@ -169,7 +169,7 @@ main{
         letter-spacing: 3px;
         font-family: 'Times New Roman', Times, serif;
         margin-top: 15px;
-        font-size: 6vh;
+        font-size: 4.5vh;
         padding-bottom: 5vh;
         color: #e5383b;
     }
@@ -178,7 +178,7 @@ main{
         letter-spacing: 3px;
         font-family: 'Times New Roman', Times, serif;
         margin-top: 15px;
-        font-size: 5vh;
+        font-size: 3vh;
         padding-bottom: 5vh;
         color: #e5383b;
     }
@@ -186,7 +186,10 @@ main{
 }
 
 
-@media (min-width: 0px) and (max-width: 480px) {                 
+@media (min-width: 0px) and (max-width: 630px) { 
+    body {
+        overflow-x: hidden;
+      }                
     nav {flex-direction: column;}
     .soldado{
         display: none;
@@ -196,7 +199,7 @@ main{
         letter-spacing: 3px;
         font-family: 'Times New Roman', Times, serif;
         padding-top: 90px;
-        font-size: 10vh;
+        font-size: 5vh;
         color: #e5383b;
         
     }
@@ -206,7 +209,7 @@ main{
         letter-spacing: 3px;
         font-family: 'Times New Roman', Times, serif;
         margin-top: 15px;
-        font-size: 5vh;
+        font-size: 4vh;
         padding-bottom: 5vh;
         color: #e5383b;
     }
@@ -215,7 +218,7 @@ main{
         letter-spacing: 3px;
         font-family: 'Times New Roman', Times, serif;
         margin-top: 15px;
-        font-size: 3.5vh;
+        font-size: 2vh;
         padding-bottom: 5vh;
         color: #e5383b;
     }
@@ -235,7 +238,7 @@ main{
     transition: 0.3s;
 }
   
-@media (max-width: 480px) {
+@media (min-width: 0px) and (max-width: 630px) {
     body {
       overflow-x: hidden;
     }
@@ -303,18 +306,25 @@ main{
   
 .p-feudalismo{
     font-size: 3vh;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .m-p1{
-    font-size: 30px;
+    width: 80vw;
+    font-size: 3vh;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .m-p2{
-    font-size: 30px;
+    width: 80vw;
+    font-size: 3vh;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .m-p3{
-    font-size: 30px;
+    width: 80vw;
+    font-size: 3vh;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .box-text1{
@@ -327,4 +337,9 @@ main{
 
 .box-text3{
     margin: 10px;
+}
+
+
+.easteregg{
+    float:right;
 }
