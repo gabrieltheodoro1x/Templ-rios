@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    
+}
 
 a{
     color: #ba181b;
@@ -150,9 +153,11 @@ main{
 }
   
 @media (min-width: 630px) and (max-width: 800px) { 
-    body {
-        overflow-x: hidden;
-    }                  
+    
+    iframe{
+        width: 50vh;
+        height: 29vh;
+    }                   
     nav {flex-direction: column; display: fixed;}
     .soldado{
         display: none;
@@ -190,8 +195,10 @@ main{
 
 
 @media (min-width: 0px) and (max-width: 630px) { 
-    body {
-        overflow-x: hidden;
+    
+    iframe{
+        width: 51vh;
+        height: 30vh;
     }                
     nav {flex-direction: column;}
     .soldado{
@@ -268,15 +275,15 @@ main{
       display: block;
     }
     nav{height: 30vh;}
-    #img1{width: 70vh;}
-    #img2{width: 70vh;}
-    #img3{width: 70vh;}
+    #img1{width: 50vh;}
+    #img2{width: 50vh;}
+    #img3{width: 50vh;}
     .m-p1{display: none;}
     .m-p2{display: none;}
     .m-p3{display: none;}
-    .box-text1:active .m-p1{display: block;}
-    .box-text2:active .m-p2{display: block;}
-    .box-text3:active .m-p2{display: block;}
+    .box-text1:hover .m-p1{display: block;}
+    .box-text2:hover .m-p2{display: block;}
+    .box-text3:hover .m-p2{display: block;}
   }
   
   .nav-list.active {
@@ -344,7 +351,7 @@ main{
 
 
 .easteregg{
-    float:right;
+    float: right;
 }
 
 #voltar{
@@ -353,9 +360,10 @@ main{
     background-color: red;
     width: 100px;
     height: 40px;
-    float: right;
+    float: left;
     text-align: center;
     color: white;
     border-radius: 2vh 3vh;
-    box-shadow: ;
+    padding: 1vh;
 }
+
