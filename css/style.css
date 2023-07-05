@@ -274,16 +274,36 @@ main{
     .mobile-menu {
       display: block;
     }
-    nav{height: 30vh;}
-    #img1{width: 50vh;}
-    #img2{width: 50vh;}
-    #img3{width: 50vh;}
-    .m-p1{display: none;}
-    .m-p2{display: none;}
-    .m-p3{display: none;}
-    .box-text1:hover .m-p1{display: block;}
-    .box-text2:hover .m-p2{display: block;}
-    .box-text3:hover .m-p2{display: block;}
+    nav{
+        height: 30vh;
+    }
+    #img1{
+        width: 50vh;
+    }
+    #img2{
+        width: 50vh;
+    }
+    #img3{
+        width: 50vh;
+    }
+    .m-p1{
+        display: none;
+    }
+    .m-p2{
+        display: none;
+    }
+    .m-p3{
+        display: none;
+    }
+    .box-text1:hover .m-p1{
+        display: block;
+    }
+    .box-text2:hover .m-p2{
+        display: block;
+    }
+    .box-text3:hover .m-p2{
+        display: block;
+    }
   }
   
   .nav-list.active {
